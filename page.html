@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Versus</title>
+
+
+
+    <!--------------------------------Fonts--------------------------------->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,500&display=swap"
+        rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet">
+
+<!------------------------------------css-------------------------------------->
+    <link rel="stylesheet" href="index.css">
+   
+<!---------------------------------------icons------------------------------------->
+    <script src="https://kit.fontawesome.com/13389b978f.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/13389b978f.js" crossorigin="anonymous"></script>
+    <style>
+        table.customTable {
+          width: 100%;
+         
+          background-color: #FFFFFF;
+          border-collapse: collapse;
+          border-width: 2px;
+          border-color: #f72424;
+          border-style: solid;
+          color: #000000;
+        }
+        
+        table.customTable td, table.customTable th {
+          border-width: 2px;
+          border-color: #070606;
+          border-style: solid;
+          padding: 5px;
+        }
+        
+        table.customTable thead {
+          background-color: #fd3737;
+        }
+        </style>
+<style>
+
+
+    /*                  */
+
+    .slider{
+        background-color: #f1f1f1;
+    }
+ 
+    .slideshow-container {
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+        padding-top: 20px;
+        background-color: #f1f1f1;
+      }
+      
+      /* Next & previous buttons */
+      .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+      
+      /* Position the "next button" to the right */
+      .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+      }
+      
+      /* On hover, add a black background color with a little bit see-through */
+      .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+      }
+      
+      /* Caption text */
+      .text {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 90%;
+        text-align: center;
+      }
+      
+      /* Number text (1/3 etc) */
+      .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 20px 12px;
+        position: absolute;
+        top: 0;
+      }
+      
+      /* The dots/bullets/indicators */
+      .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+      }
+      
+      .active, .dot:hover {
+        background-color: #717171;
+      }
+      
+      /* Fading animation */
+      .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+      }
+      .mySlides {display: none}
+img {vertical-align: middle;}
+      @-webkit-keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+      }
+      
+      @keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+      }
+      
+      /* On smaller screens, decrease text size */
+      @media only screen and (max-width: 300px) {
+        .prev, .next,.text {font-size: 11px}
+      }
+
+
+/* whatsapp chat-icon*/
+      div img.imgwp{
+
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        border-radius: 50%;
+        height: 70px;
+
+      }
+
+      @media only screen and (max-width: 450px) {
+        div img.imgwp{height: 50px;
+        }
+      }
+
+      li a.login-btn{
+        background-color: rgb(248, 7, 7);
+      }
+</style>
+
+   
+</head>
+
+<body>
+
+<div class="banner">
+
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="check-btn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo">
+              <a href="index.html" style="color: #fff; " >VERSUS</a> 
+            </label>
+
+            <ul>
+
+                <Li><a href="index.html">Home</a></Li>
+                <Li><a href="#">About</a></Li>
+                <Li><a href="#">Contact</a></Li>
+                <Li ><a class="login-btn" style="color: white;" href="index.html">Login/SignUp</a></Li>
+
+
+            </ul>
+
+        </nav>
+    </div>
+  
+      
+    
+    
+    
+        
+        
+
+<!---------------------------------text at body center (content)------------------>
+   <div class="content">
+       <!-- <h1 id="versus">
+           V/S
+        </h1>-->
+        
+<br>
+        <div>
+           <h1>Header 1 v/s Header 2</h1> 
+           <!--<button type="button"><span></span> Find Now!</button>-->
+        </div>
+        <table class="customTable">
+            <thead>
+              <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><b>If you landed up here, then thanks to reading this. Actually I started this project with a fantastic idea but left it unfinished. If you want to discuss more and want to contribute ; then you are free to open an issue, i will be there to discuss this to you.<b> </td>
+                <td>Row 1, Cell 2 It groups containers that make up an application into logical units for easy management and discovery. Kubernetes builds upon 15 years of experience of running production workloads at Google, combined with best-of-breed ideas and practices from the community..</td>
+              </tr>
+              <tr>
+                <td>Row 2, Cell 1  It groups containers that make up an application into logical units for easy management and discovery. Kubernetes builds upon 15 years of experience of running production workloads at Google, combined with best-of-breed ideas and practices from the community...</td>
+                <td>Row 2, Cell 2  It groups containers that make up an application into logical units for easy management and discovery. Kubernetes builds upon 15 years of experience of running production workloads at Google, combined with best-of-breed ideas and practices from the community...</td>
+              </tr>
+              <tr>
+                <td>Row 3, Cell 1  It groups containers that make up an application into logical units for easy management and discovery. Kubernetes builds upon 15 years of experience of running production workloads at Google, combined with best-of-breed ideas and practices from the community...</td>
+                <td>Row 3, Cell 2  It groups containers that make up an application into logical units for easy management and discovery. Kubernetes builds upon 15 years of experience of running production workloads at Google, combined with best-of-breed ideas and practices from the community...</td>
+              </tr>
+              <tr>
+                <td>Row 4, Cell 1  It groups containers that make up an application into logical units for easy management and discovery. Kubernetes builds upon 15 years of experience of running production workloads at Google, combined with best-of-breed ideas and practices from the community...</td>
+                <td>Row 4, Cell 2  It groups containers that make up an application into logical units for easy management and discovery. Kubernetes builds upon 15 years of experience of running production workloads at Google, combined with best-of-breed ideas and practices from the community...
+                 
+                </td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+
+   <br> <br>
+  <!-- thinking about a search bar just above the body text
+
+       <div class="ca-search-container">
+        <img class="ca-search-icon" src="—Pngtree—search vector icon_4015255.png" alt="">
+        <input type="text" name="search" id="search" placeholder="type here">
+        <button class="btn">Search</button>
+    </div>
+-->
+
+
+<!-------------------------Our Services------------------------------
+<div class="services">
+    <h1>Our Services</h1>
+    <div class="sections">
+      <div class="service">
+        <i class="fas fa-building"></i>
+        <h2>Service Name</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+      </div>
+
+      <div class="service">
+        <i class="fas fa-warehouse"></i>
+        <h2>Service Name</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+      </div>
+
+      <div class="service">
+        <i class="fas fa-hotel"></i>
+        <h2>Service Name</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+      </div>
+
+      <div class="service">
+        <i class="fas fa-home"></i>
+        <h2>Service Name</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+      </div>
+
+      <div class="service">
+        <i class="fas fa-store-alt"></i>
+        <h2>Service Name</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+      </div>
+
+     can add more srvices............
+         <div class="service">
+        <i class="fas fa-bed"></i>
+        <h2>Service Name</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+      </div>
+       
+    </div>
+  </div>
+<hr>
+      -->
+<!--
+      <div class="slider">
+ <div class="services"><h1>Top Project</h1></div> 
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="brandon-griggs-wR11KBaB86U-unsplash.jpg" style="width:100%; height:250px; border-radius:5px;">
+      <div class="text">Project 1</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="brandon-griggs-wR11KBaB86U-unsplash.jpg" style="width:100%; height:250px; border-radius:5px;">
+      <div class="text">Project 2</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="733582.jpg" style="width:100%; height:250px; border-radius:5px;">
+      <div class="text">Project 3</div>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+    
+
+</div>
+</div>
+  <!--------------------------Footer------------------------------->
+
+  <footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>company</h4>
+                <ul>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">our services</a></li>
+                    <li><a href="#">privacy policy</a></li>
+                    <li><a href="#">affiliate program</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Get help</h4>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                    <li><a href="#">Enquiry</a></li>
+                    <li><a href="#">Unsubscribe</a></li>
+                    <li><a href="#">Payment options</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>More</h4>
+                <ul>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Feedback</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>follow us</h4>
+                <div class="social-links">
+                   
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</footer>
+
+
+<!--Div where the github will be rendered-->  
+<div class="wp">
+   <a href="#" ><img class="imgwp" src="github.png"></a>
+</div>
+ 
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+   
+</body>
+
+</html>
